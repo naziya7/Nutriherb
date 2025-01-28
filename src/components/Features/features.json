@@ -1,0 +1,20 @@
+[
+    {
+      "img": "image/feature-img-1.png",
+      "title": "Farm Fresh Products",
+      "description": "Handpicked from the best farms, naturally preserved for you.",
+      "link": "/"
+    },
+    {
+      "img": "image/feature-img-2.png",
+      "title": "Doorstep Delivery",
+      "description": "Order from us and we’ll deliver your products right to your doorstep.",
+      "link": "/"
+    },
+    {
+      "img": "image/feature-img-3.png",
+      "title": "Affordable Pricing",
+      "description": "Premium quality products at prices that won’t break the bank.",
+      "link": "/"
+    }
+  ]

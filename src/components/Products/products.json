@@ -1,0 +1,58 @@
+[
+    {
+      "id": 1,
+      "image": "image/Strawberry-Powder.jpg",
+      "name": "strawberry Powder"
+    },
+    {
+      "id": 2,
+      "image": "image/moringa-leaves.jpg",
+      "name": "Moringa Leaves Powder"
+    },
+    {
+        "id": 3,
+        "image": "image/puran.jpg",
+        "name": "Puran"
+      },
+      {
+        "id": 4,
+        "image": "image/spinach.jpg",
+        "name": "Spinach Leaves Powder"
+      },
+      {
+        "id": 5,
+        "image": "image/beet.jpg",
+        "name": "Beetroot Powder"
+      },
+      {
+        "id": 6,
+        "image": "image/coriander.jpg",
+        "name": "Coriander Powder"
+      },
+      {
+        "id": 7,
+        "image": "image/mataki.jpg",
+        "name": "Sprouts"
+      },
+      {
+        "id": 8,
+        "image": "image/bitterGuard.jpg",
+        "name": "Bitter Guard"
+      },
+      {
+        "id": 9,
+        "image": "image/mint.jpg",
+        "name": "Mint Leaves Powder"
+      },
+      {
+        "id": 10,
+        "image": "image/tomato.jpg",
+        "name": "Tomato Powder"
+      }, 
+      {
+        "id": 11,
+        "image": "image/greenChilli.jpg",
+        "name": "Green Chilli Powder"
+      }
+  ]
+  

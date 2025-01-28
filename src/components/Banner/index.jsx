@@ -25,7 +25,7 @@ export default function Banner() {
         Our promise is simple: nutritious, delicious, and sustainably sourced dehydrated products that bring convenience and health to your table.
         </p>
         <button type="button" className="btn">
-          shop now
+          Explore now
         </button>
       </div>
     </section>
