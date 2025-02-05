@@ -22,37 +22,15 @@ export default function Footer() {
         <div className="box">
           <FontAwesomeIcon icon={['fas', 'faUser']} />
           <h3>
-            groco
+           Nutriherb
             <i>
               <FontAwesomeIcon icon={faShoppingBasket} />
             </i>
           </h3>
           <p>
-            Lorem, Ipsum Dolor Sit Amet Consectetur Adipisicing Elit. Natus,
-            Laudantium?
+            By JB Food Processing
           </p>
-          <div className="share">
-            <a href="/">
-              <i>
-                <FontAwesomeIcon className="fa-icon" icon={faFacebookF} />
-              </i>
-            </a>
-            <a href="/">
-              <i>
-                <FontAwesomeIcon className="fa-icon" icon={faTwitter} />
-              </i>
-            </a>
-            <a href="/">
-              <i>
-                <FontAwesomeIcon className="fa-icon" icon={faInstagram} />
-              </i>
-            </a>
-            <a href="/">
-              <i>
-                <FontAwesomeIcon className="fa-icon" icon={faLinkedin} />
-              </i>
-            </a>
-          </div>
+         
         </div>
         <div className="box">
           <h3>contact info</h3>
@@ -60,25 +38,26 @@ export default function Footer() {
             <i>
               <FontAwesomeIcon icon={faPhone} />
             </i>
-            +123 456 7890
+            +91 9527331020
           </a>
-          <a href="/" className="links">
+          {/* <a href="/" className="links">
             <i>
               <FontAwesomeIcon icon={faPhone} />
             </i>
-            +111 222 3333
-          </a>
+            +91 9527331020
+          </a> */}
           <a href="/" className="links" id="emailLink">
             <i>
               <FontAwesomeIcon icon={faEnvelope} />
             </i>
-            name@email.com
+            
+jbfoodsprocessing@gmail.com
           </a>
           <a href="/" className="links">
             <i>
               <FontAwesomeIcon icon={faMapMarkerAlt} />
             </i>
-            pernambuco, brazil
+           Satara, Maharashtra, India
           </a>
         </div>
         <div className="box">
@@ -130,15 +109,7 @@ export default function Footer() {
           <img src="image/payment.png" alt="" />
         </div>
       </div>
-      <div className="credits">
-        <p>
-          Created By
-          {' '}
-          <span>Mr. Web Designer</span>
-          {' '}
-          | All Rights Reserved
-        </p>
-      </div>
+     
     </footer>
   );
 }
