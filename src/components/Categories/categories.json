@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "name": "Vegetables",
+      "image": "image/cat-1.png",
+      "discount": "upto 45% off",
+      "type": "vegetables"
+    },
+    {
+      "id": 2,
+      "name": "Fresh Fruits",
+      "image": "image/cat-2.png",
+      "discount": "upto 45% off",
+      "type": "fruits"
+    },
+    {
+      "id": 3,
+      "name": "Premixes",
+      "image": "image/cat-3.png",
+      "discount": "upto 45% off",
+      "type": "premix"
+    }
+  ]
+  

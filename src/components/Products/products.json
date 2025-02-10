@@ -1,23 +1,29 @@
-[
-    {
-      "id": 1,
-      "image": "image/Strawberry-Powder.jpg",
-      "name": "strawberry Powder"
-    },
-    {
-      "id": 2,
-      "image": "image/moringa-leaves.jpg",
-      "name": "Moringa Leaves Powder"
-    },
-    {
-        "id": 3,
-        "image": "image/puran.jpg",
-        "name": "Puran"
+{
+    "vegetables": [
+      {
+        "id": 2,
+        "image": "image/moringa-leaves.jpg",
+        "name": "Moringa Powder"
+      },
+      {
+        "id": 11,
+        "image": "image/greenChilli.jpg",
+        "name": "Green Chilli Powder"
+      },
+      {
+        "id": 8,
+        "image": "image/bitterGuard.jpg",
+        "name": "Bitter Guard"
+      },
+      {
+        "id": 7,
+        "image": "image/sprouts.jpeg",
+        "name": "Sprouts"
       },
       {
         "id": 4,
         "image": "image/spinach.jpg",
-        "name": "Spinach Leaves Powder"
+        "name": "Spinach Powder"
       },
       {
         "id": 5,
@@ -30,16 +36,6 @@
         "name": "Coriander Powder"
       },
       {
-        "id": 7,
-        "image": "image/mataki.jpg",
-        "name": "Sprouts"
-      },
-      {
-        "id": 8,
-        "image": "image/bitterGuard.jpg",
-        "name": "Bitter Guard"
-      },
-      {
         "id": 9,
         "image": "image/mint.jpg",
         "name": "Mint Leaves Powder"
@@ -48,11 +44,22 @@
         "id": 10,
         "image": "image/tomato.jpg",
         "name": "Tomato Powder"
-      }, 
-      {
-        "id": 11,
-        "image": "image/greenChilli.jpg",
-        "name": "Green Chilli Powder"
       }
-  ]
-  
+    
+    ],
+    "fruits": [
+      {
+        "id": 1,
+        "image": "image/Strawberry-Powder.jpg",
+        "name": "strawberry Powder"
+      }
+    ],
+    "premix": [
+      {
+        "id": 3,
+        "image": "image/puran.jpg",
+        "name": "Puran"
+      }
+    ]
+  }
+ 
