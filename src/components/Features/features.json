@@ -1,20 +1,20 @@
 [
-    {
-      "img": "image/feature-img-1.png",
-      "title": "Farm Fresh Products",
-      "description": "Handpicked from the best farms, naturally preserved for you.",
-      "link": "/"
-    },
-    {
-      "img": "image/feature-img-2.png",
-      "title": "Doorstep Delivery",
-      "description": "Order from us and we’ll deliver your products right to your doorstep.",
-      "link": "/"
-    },
-    {
-      "img": "image/feature-img-3.png",
-      "title": "Affordable Pricing",
-      "description": "Premium quality products at prices that won’t break the bank.",
-      "link": "/"
-    }
-  ]
+  {
+    "img": "image/feature-img-1.png",
+    "title": "Farm Fresh Products",
+    "description": "Sourced directly from the finest farms, our products are naturally grown and carefully preserved to retain their freshness and quality. Enjoy nature’s best, delivered straight to you.",
+    "link": "/"
+  },
+  {
+    "img": "image/feature-img-2.png",
+    "title": "Doorstep Delivery",
+    "description": "Shop with ease and let us bring your favorite products right to your doorstep. Our reliable and efficient delivery service ensures your order arrives fresh and on time, every time.",
+    "link": "/"
+  },
+  {
+    "img": "image/feature-img-3.png",
+    "title": "Affordable Pricing",
+    "description": "Enjoy premium quality products at prices that fit your budget. We believe in making fresh and healthy food accessible to everyone, ensuring great value without compromising on quality.",
+    "link": "/"
+  }
+]

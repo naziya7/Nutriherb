@@ -35,30 +35,47 @@
 //     </section>
 //   );
 // }
-import React from 'react';
+import React, { useState } from 'react';
 import './Features.css';
 import featuresData from './features.json';
 
 export default function Features() {
+  const [expanded, setExpanded] = useState(featuresData.map(() => false));
+
+  const toggleDescription = (index) => {
+    setExpanded((prev) => prev.map((item, i) => (i === index ? !item : item)));
+  };
+
   return (
     <section className="features" id="features">
       <div className="content">
         <h1 className="heading">
-          our
-          {' '}
-          <span>features</span>
+          our <span>features</span>
         </h1>
         <div className="box-container">
-          {featuresData.map((feature, index) => (
-            <div className="box" key={index}>
-              <img src={feature.img} alt={feature.title} />
-              <h3>{feature.title}</h3>
-              <p>{feature.description}</p>
-              <a href={feature.link} className="btn">read more</a>
-            </div>
-          ))}
+          {featuresData.map((feature, index) => {6
+            const isExpanded = expanded[index];
+            const descriptionToShow = isExpanded
+              ? feature.description
+              : feature.description.slice(0, 60) + (feature.description.length > 60 ? '...' : '');
+
+            return (
+              <div className={`box ${isExpanded ? 'expanded' : ''}`} key={index}>
+                <img src={feature.img} alt={feature.title} />
+                <h3>{feature.title}</h3>
+                <p>{descriptionToShow}</p>
+                <div
+                  className="btn"
+                  onClick={() => toggleDescription(index)}
+                >
+                  {isExpanded ? 'Read Less' : 'Read More'}
+                </div>
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
   );
 }
+                                                                                                 
