@@ -33,6 +33,10 @@ export default function Footer() {
           <p>
             By JB Food Processing
           </p>
+          <p>Ashpak patel (Founder)
+            At.Po.Gajawadi,Satara-415013</p>
+           
+        
          
         </div>
         <div className="box">
@@ -88,12 +92,6 @@ jbfoodsprocessing@gmail.com
               <FontAwesomeIcon icon={faArrowRight} />
             </i>
             categories
-          </a>
-          <a href="#reviews" className="links">
-            <i>
-              <FontAwesomeIcon icon={faArrowRight} />
-            </i>
-            reviews
           </a>
           <a href="#blogs" className="links">
             <i>

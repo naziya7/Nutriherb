@@ -1,0 +1,30 @@
+[
+    {
+      "id": 1,
+      "imgSrc": "image/blog-1.jpg",
+      "title": "🍓 Dehydrated Fruits: A Naturally Sweet & Healthy Snack",
+      "date": "1st Feb, 2025",
+      "author": "user",
+      "shortDescription": "Looking for a healthy, on-the-go snack? Dehydrated fruits are nature’s candy, minus the artificial sugars!",
+      "fullDescription": "Looking for a healthy, on-the-go snack? Dehydrated fruits are nature’s candy, minus the artificial sugars! They preserve the natural sweetness, fiber, and antioxidants of fresh fruit while being super convenient. 🥭 Mango, banana, and strawberry powders for smoothies.                       Enjoy your favorite fruits all year round without worrying about spoilage!"
+    },
+    {
+      "id": 2,
+      "imgSrc": "image/premix.jpg",
+      "title": "🥣 Ready-to-Eat Premixes: Instant Goodness at Your Fingertips!",
+      "date": "7th Feb, 2025",
+      "author": "user",
+      "shortDescription": "Busy lifestyle? Dehydrated ready-to-eat premixes make healthy eating effortless! Just add water, and you have a... ",
+      "fullDescription": "Busy lifestyle? Dehydrated ready-to-eat premixes make healthy eating effortless! Just add water, and you have a nutrient-rich, homemade meal in minutes.Puran mix for instant puran poli,Soup & curry bases for quick home-cooked meals.These premixes save time, reduce food waste, and bring authentic flavors to your plate—perfect for modern kitchens!"
+    },
+    {
+      "id": 3,
+      "imgSrc": "image/blog-3.jpg",
+      "title": "The Power of Dehydrated Vegetables: Nutrition That Lasts!",
+      "date": "10th Jan, 2025",
+      "author": "user",
+      "shortDescription": "Fresh vegetables are a kitchen staple, but what if you could enjoy their goodness anytime, anywhere?",
+      "fullDescription": "Fresh vegetables are a kitchen staple,but what if you could enjoy their goodness anytime, anywhere?Dehydrated vegetables are a game-changer! They retain nutrients, flavor, and color while offering a longer shelf life.Whether it’s spinach, beetroot, or moringa powder, these superfoods pack a punch of health in every bite! 🍃"
+    }
+  ]
+  

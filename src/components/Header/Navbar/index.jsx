@@ -11,7 +11,6 @@ export default function Navbar(props) {
       <a href="#features">features</a>
       <a href="#products">products</a>
       <a href="#categories">categories</a>
-      <a href="#reviews">review</a>
       <a href="#blogs">blogs</a>
     </nav>
   );
