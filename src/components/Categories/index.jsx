@@ -1,3 +1,4 @@
+/* eslint-disable */
 
 // import React from "react";
 // import "./Categories.css";
@@ -22,40 +23,50 @@
 //       </h1>
 //       <div className="box-container">
 //         {categories.map((category) => (
-//           <CategoryCard 
-//             key={category.id} 
-//             name={category.name} 
-//             image={category.image} 
-//             discount={category.discount} 
+//           <CategoryCard
+//             key={category.id}
+//             name={category.name}
+//             image={category.image}
+//             discount={category.discount}
 //           />
 //         ))}
 //       </div>
 //     </section>
 //   );
 // }
-import React, { useState } from "react";
-import "./Categories.css";
-import categories from "./categories.json"; // Import JSON data
-import productsData from "../Products/products.json"; // Import Products JSON
+import React, { useState } from 'react';
+import './Categories.css';
+import categories from './categories.json'; // Import JSON data
+import productsData from '../Products/products.json'; // Import Products JSON
+
+import backSvg from "./svg/back.svg"
 
 const CategoryCard = ({ category, isFlipped, onFlip }) => {
   return (
-    <div className={`box ${isFlipped ? "flipped" : ""}`}>
+    <div className={`box ${isFlipped ? 'flipped' : ''}`}>
       {!isFlipped ? (
         <>
           <img src={category.image} alt={category.name} />
           <h3>{category.name}</h3>
-          <button type="button" className="btn" onClick={() => onFlip(category.type)}>
+          <p>{category.discount}</p>
+          <button
+            type="button"
+            className="btn"
+            onClick={() => onFlip(category.type)}
+          >
             Check Now
           </button>
         </>
       ) : (
         <div className="products-list">
-          <button type="button" className="btn" onClick={() => onFlip(null)}>
-            Back
-          </button>
-          {/* <h3>{category.name} Products</h3> */}
-          <ul>
+          <div className="categoryHeader">
+            <button type="button" className="btn1" onClick={() => onFlip(null)}>
+              <img src={backSvg}/> 
+            </button>
+            <h3>{category.name}</h3>
+          </div>
+
+          <ul className="categoryBox">
             {productsData[category.type]?.map((product) => (
               <li key={product.id}>
                 <img src={product.image} alt={product.name} />
